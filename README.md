@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+TROUBLESHOOT:
+if npm start gives warning kindly Change the package.json babel dependency to available versions. For example, you can try version 7.21.11. Modify it like this:
+"@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+then do a npm install to install that particular version and run npm start to view the application. Check if react-scripts is Installed:
+
+Open your project's directory in the terminal and run: npm ls react-scripts if the react scripts are not found run command : ' npm install react-scripts --save ' and do command 'npm start'
+
+
 ## Available Scripts
 
 In the project directory, you can run:
