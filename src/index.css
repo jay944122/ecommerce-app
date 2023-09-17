@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --nav: gold;
+  --fontStyle: "Bebas Neue", cursive;
+}
+
+@media only screen and (max-width: 424px) {
+  #card-image {
+    width: 11rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  :root {
+    font-size: 11px;
+  }
+}
+
+body {
+  background-image: linear-gradient(to bottom, #37374e, white, #37374e);
+  background-color: rgb(37, 37, 52);
+  font-family: var(--fontStyle);
+}
+
+@media only screen and (max-width: 992px) {
+  #detailAddedImage {
+    width: 100%;
+  }
+}
+
+a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background-color: #fff; /* Add a white background to the card */
+  padding: 15px; /* Add padding to the card */
+  border-radius: 8px; /* Add rounded corners to the card */
+  margin-bottom: 20px; /* Add space between cards */
+}
+
+p {
+  letter-spacing: 1px;
+  color: #fff; /* Change text color to white */
+}
